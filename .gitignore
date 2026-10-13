@@ -1,0 +1,16 @@
+# 编译产物
+/bin/
+*.exe
+*.test
+*.out
+
+# 私钥与主机密钥绝不入库
+*.pem
+*.key
+hostkey
+!testdata/**
+
+# 编辑器与系统
+.DS_Store
+.idea/
+.vscode/
